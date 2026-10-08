@@ -25,13 +25,6 @@ Personal homepage. Plain HTML, CSS and JS, no build step. Hosted on GitHub Pages
 
 Run locally: `GITHUB_TOKEN=... node scripts/fetch-repos.mjs`
 
-## Deploying
+## Preview locally
 
-1. Repo **Settings > Pages**: Source = *Deploy from a branch*, branch `main`, folder `/ (root)`.
-2. Same page: Custom domain = `cindanela.se`, then tick *Enforce HTTPS* once the certificate is ready.
-3. DNS at your registrar:
-   - `A` records for `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `AAAA` records for `@`: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
-   - `CNAME` for `www`: `cindanela.github.io`
-
-Preview locally: `python3 -m http.server` and open http://localhost:8000.
+Run `python3 -m http.server` and open http://localhost:8000.
