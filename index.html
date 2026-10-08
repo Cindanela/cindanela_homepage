@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cindanela | Developer</title>
+  <meta name="description" content="Cindanela: software developer. Current projects, public repositories and packages.">
+  <meta name="theme-color" content="#dbe9ff">
+  <link rel="canonical" href="https://cindanela.se/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%233b82f6'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+    // Apply saved theme before paint (light is the default).
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <!-- Decorative background -->
+  <div class="bg" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="blob b4"></div>
+    <svg class="waves" viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <path class="w w1" d="M-100 560 C 100 440, 300 440, 500 560 S 900 680, 1100 560 S 1400 440, 1600 560"/>
+      <path class="w w2" d="M-100 650 C 150 540, 350 540, 600 650 S 1000 760, 1200 650 S 1450 540, 1600 650"/>
+      <path class="w w3" d="M-100 330 C 150 250, 350 250, 600 330 S 1000 410, 1200 330 S 1450 250, 1600 330"/>
+    </svg>
+  </div>
+
+  <header class="nav glass">
+    <a class="brand" href="#top">Cindanela</a>
+    <nav aria-label="Sections">
+      <a href="#now">Now</a>
+      <a href="#projects">Projects</a>
+      <a href="#packages" id="nav-packages" hidden>Packages</a>
+    </nav>
+    <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+      <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="glass hero-card">
+        <p class="eyebrow">Software developer</p>
+        <h1>Hi, I'm Cindanela.</h1>
+        <p class="lead">I build apps and open-source packages, mostly with Flutter and Dart. Below is what I'm working on right now and what I've published.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn" href="https://github.com/Cindanela" rel="me noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="now" aria-labelledby="now-h">
+      <div class="section-head">
+        <h2 id="now-h">Currently working on</h2>
+        <span class="muted small" id="now-updated"></span>
+      </div>
+      <div class="grid" id="now-list" aria-live="polite">
+        <div class="glass card skeleton"></div>
+        <div class="glass card skeleton"></div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-h">
+      <div class="section-head">
+        <h2 id="projects-h">Public repositories</h2>
+        <div class="controls">
+          <label class="sr-only" for="sort">Sort by</label>
+          <select id="sort" class="glass select">
+            <option value="updated">Recently updated</option>
+            <option value="name">Name</option>
+            <option value="stars">Stars</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid" id="repo-list" aria-live="polite">
+        <div class="glass card skeleton"></div>
+        <div class="glass card skeleton"></div>
+        <div class="glass card skeleton"></div>
+      </div>
+      <p class="muted small" id="repo-meta"></p>
+    </section>
+
+    <section id="packages" aria-labelledby="packages-h" hidden>
+      <div class="section-head"><h2 id="packages-h">Packages</h2></div>
+      <div class="grid" id="package-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="muted small">&copy; <span id="year">2026</span> Cindanela &middot; <a href="https://github.com/Cindanela/cindanela_homepage" rel="noopener">Source</a></p>
+  </footer>
+
+  <noscript><p class="noscript glass">This page loads its project lists with JavaScript. See <a href="https://github.com/Cindanela">github.com/Cindanela</a>.</p></noscript>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

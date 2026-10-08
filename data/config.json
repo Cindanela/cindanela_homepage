@@ -1,0 +1,6 @@
+{
+  "owner": "Cindanela",
+  "exclude": ["cindanela_homepage", "TerribleDocs", "skills-code-with-codespaces"],
+  "includeForks": false,
+  "includeArchived": false
+}

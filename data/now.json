@@ -1,0 +1,27 @@
+{
+  "_comment": "Edit this file to change the 'Currently working on' section. status: active | planning | polishing | paused",
+  "updated": "2026-10-08",
+  "items": [
+    {
+      "title": "Lucide icons for Flutter",
+      "text": "Dependency-free icon set drawn with CustomPainter, plus a picker widget on top of it.",
+      "status": "active",
+      "tags": ["Flutter", "Dart", "Open source"],
+      "url": "https://github.com/Cindanela/elk_lucide_icons"
+    },
+    {
+      "title": "Glass effects toolkit",
+      "text": "Reusable frosted-glass building blocks for Flutter interfaces.",
+      "status": "polishing",
+      "tags": ["Flutter", "UI"],
+      "url": "https://github.com/Cindanela/cins_glass_effects"
+    },
+    {
+      "title": "This homepage",
+      "text": "Static site on GitHub Pages with an automatic repo list.",
+      "status": "active",
+      "tags": ["HTML", "CSS", "GitHub Actions"],
+      "url": "https://github.com/Cindanela/cindanela_homepage"
+    }
+  ]
+}
