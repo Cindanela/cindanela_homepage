@@ -127,7 +127,7 @@ h2 { font-size: clamp(1.4rem, 3.5vw, 1.9rem); }
 
 /* Hero */
 .hero { margin-top: clamp(32px, 8vw, 72px); }
-.hero-card { border-radius: calc(var(--radius) + 8px); padding: clamp(24px, 6vw, 56px); max-width: 760px; }
+.hero-card { border-radius: calc(var(--radius) + 8px); padding: clamp(24px, 6vw, 56px); }
 .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; font-weight: 600; color: var(--accent); margin-bottom: 14px; }
 h1 { font-size: clamp(2.2rem, 7vw, 3.8rem); }
 .lead { margin-top: 16px; font-size: clamp(1.02rem, 2.4vw, 1.2rem); color: var(--muted); max-width: 56ch; }
