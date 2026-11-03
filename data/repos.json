@@ -1,7 +1,18 @@
 {
-  "generated": "2026-10-08T00:00:00Z",
+  "generated": "2026-11-03T11:55:00.946Z",
   "owner": "Cindanela",
   "repos": [
+    {
+      "name": "elk_stroke_icons",
+      "description": "Lucide icons for Flutter, drawn with CustomPainter — no fonts, no SVG assets, no dependencies",
+      "language": "Dart",
+      "url": "https://github.com/Cindanela/elk_stroke_icons",
+      "homepage": null,
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2026-11-03T07:37:56Z",
+      "release": null
+    },
     {
       "name": "elk_icon_picker",
       "description": "A user icon picker for Lucide Icons in Flutter",
@@ -13,18 +24,7 @@
         "icon-picker",
         "lucide-icons"
       ],
-      "pushed_at": "2026-09-29T10:50:27Z",
-      "release": null
-    },
-    {
-      "name": "elk_lucide_icons",
-      "description": "Lucide icons for Flutter, drawn with CustomPainter \u2014 no fonts, no SVG assets, no dependencies",
-      "language": "Dart",
-      "url": "https://github.com/Cindanela/elk_lucide_icons",
-      "homepage": null,
-      "stars": 0,
-      "topics": [],
-      "pushed_at": "2026-09-29T10:50:24Z",
+      "pushed_at": "2026-11-03T07:22:38Z",
       "release": null
     },
     {
