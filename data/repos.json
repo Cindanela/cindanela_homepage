@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T13:02:13.621Z",
+  "generated": "2026-11-22T12:34:33.188Z",
   "owner": "Cindanela",
   "repos": [
     {
@@ -10,7 +10,18 @@
       "homepage": null,
       "stars": 0,
       "topics": [],
-      "pushed_at": "2026-11-19T09:05:48Z",
+      "pushed_at": "2026-11-22T08:20:56Z",
+      "release": null
+    },
+    {
+      "name": "networkdays",
+      "description": null,
+      "language": "Dart",
+      "url": "https://github.com/Cindanela/networkdays",
+      "homepage": null,
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2026-11-22T08:20:53Z",
       "release": null
     },
     {
@@ -58,17 +69,6 @@
       "stars": 0,
       "topics": [],
       "pushed_at": "2026-07-14T05:39:55Z",
-      "release": null
-    },
-    {
-      "name": "networkdays",
-      "description": null,
-      "language": "Dart",
-      "url": "https://github.com/Cindanela/networkdays",
-      "homepage": null,
-      "stars": 0,
-      "topics": [],
-      "pushed_at": "2026-05-28T06:48:23Z",
       "release": null
     },
     {
